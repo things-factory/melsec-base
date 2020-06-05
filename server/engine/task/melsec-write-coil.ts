@@ -40,6 +40,10 @@ async function MelsecWriteCoil(step, { logger }) {
 
     await doRequest(request, deviceCode, writeStartDevice, Number(!Number(writeCoilValue)), writeLength, logger)
   }
+
+  return {
+    data: writeCoilValue
+  }
 }
 
 async function doRequest(request, deviceCode, writeStartDevice, writeCoilValue, writeLength, logger) {

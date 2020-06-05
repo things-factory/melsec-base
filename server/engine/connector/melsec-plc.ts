@@ -182,6 +182,10 @@ export class MelsecPLCConnector implements Connector {
       }
     ]
   }
+
+  get taskPrefixes() {
+    return ['melsec']
+  }
 }
 
 Connections.registerConnector('melsec-plc', new MelsecPLCConnector())
