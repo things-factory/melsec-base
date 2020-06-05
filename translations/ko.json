@@ -1,0 +1,12 @@
+{
+  "label.plc_address": "PLC주소",
+  "label.read_length": "연속주소개수",
+  "label.write_length": "연속주소개수",
+  "label.expected_value": "기대값",
+  "label.wait_term": "텀",
+  "label.auto_reset": "자동리셋",
+  "label.reset_delay": "리셋Delay",
+
+  "text.START": "시작",
+  "text.FINISH": "완료"
+}

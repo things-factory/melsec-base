@@ -1,0 +1,12 @@
+{
+  "label.plc_address": "PLC Address",
+  "label.read_length": "Length",
+  "label.write_length": "Length",
+  "label.expected_value": "Expected Value",
+  "label.wait_term": "Term",
+  "label.auto_reset": "Auto Reset",
+  "label.reset_delay": "Reset Delay",
+
+  "text.START": "START",
+  "text.FINISH": "FINISH"
+}
