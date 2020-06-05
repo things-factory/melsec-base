@@ -1,6 +1,6 @@
 {
   "name": "@things-factory/melsec-base",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "dist-server/index.js",
   "browser": "client/index.js",
   "things-factory": true,
@@ -30,7 +30,7 @@
     "stop": "things-factory-stop melsec-base"
   },
   "dependencies": {
-    "@things-factory/integration-base": "^2.3.6",
+    "@things-factory/integration-base": "^2.0.0",
     "p-queue": "^6.4.0"
   },
   "devDependencies": {
